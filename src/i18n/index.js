@@ -52,6 +52,10 @@ const languages = [
     name: 'Hindi (हिंदी)',
   },
   {
+    code: 'is',
+    name: 'Icelandic (Íslenska)'
+  },
+  {
     code: 'it',
     name: 'Italian (Italiano)',
   },
