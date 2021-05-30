@@ -5,8 +5,8 @@
     "forms": {
       "name": "Nafn",
       "title": "Titill",
-      "subtitle": "Subtitle",
-      "required": "required",
+      "subtitle": "Undirtitill",
+      "required": "nauðsynlegt",
       "website": "Vefsíða",
       "date": "Dagsetning",
       "present": "Núverandi",
@@ -39,34 +39,34 @@
   },
   "landing": {
     "hero": {
-      "goToApp": "Fara í app"
+      "goToApp": "Fara í forrit"
     }
   },
   "dashboard": {
-    "title": "Dashboard",
-    "createResume": "Create Resume",
-    "editResume": "Edit Resume",
-    "lastUpdated": "Last Updated {{timestamp}}",
+    "title": "Yfirlit",
+    "createResume": "Búa til ferilskrá",
+    "editResume": "Breyta ferilskrá",
+    "lastUpdated": "Síðast uppfært {{timestamp}}",
     "toasts": {
-      "deleted": "{{name}} was deleted successfully"
+      "deleted": "{{name}} var hent"
     },
     "buttons": {
-      "duplicate": "Duplicate",
-      "rename": "Rename"
+      "duplicate": "Afrita",
+      "rename": "Endurnefna"
     },
-    "helpText": "You are going to be creating a new resume from scratch, but first, let's give it a name. This can be the name of the role you want to apply for, or if you're making a resume for a friend, you could call it Alex's Resume."
+    "helpText": "Þú ert að fara að búa til nýja ferilskrá frá grunni, en fyrst skulum við nefna hana. Þetta getur verið nafnið á stöðunni sem þig langar að sækja um, eða ef þetta er ferilskrá fyrir vin, þá gætiru t. d nefnt hana Ferilskrá Jóns."
   },
   "builder": {
     "toasts": {
-      "formErrors": "You might need to fill up all the required fields before submitting this form.",
-      "doesNotExist": "The resume you were looking for does not exist anymore... or maybe it never did?",
-      "loadDemoData": "Not sure where to begin? Try loading demo data to see what Reactive Resume has to offer.",
-      "printError": "The cloud function is running into some trouble, please try again later or use the browser print feature."
+      "formErrors": "Þú gætir þurft að fylla út alla nauðsynlega reiti áður en þú sendir inn þetta form.",
+      "doesNotExist": "Ferilskráin sem þú varst að leita að er ekki lengur til... eða kannski var hún aldrei til?",
+      "loadDemoData": "Ekki viss hvar á að byrja? Prófaðu að setja inn demo gögn til að kanna hvað Reactive Resume býður upp á.",
+      "printError": "Skýjafallið er að lenda í einhverjum vandræðum, vinsamlegast reynið aftur síðar, eða notið prentgluggann í vafra."
     },
     "sections": {
-      "heading": "Heading",
+      "heading": "Fyrirsögn",
       "profile": "Upplýsingar",
-      "social": "Samfélasmiðlar",
+      "social": "Samfélagsmiðlar",
       "objective": "Markmið",
       "work": "Reynsla",
       "education": "Menntun",
@@ -84,169 +84,169 @@
       "languages": "Tungumál",
       "reference": "Meðmælandi",
       "references": "Meðmælendur",
-      "templates": "Templates",
-      "layout": "Layout",
-      "colors": "Colors",
-      "font-size": "Font Size",
-      "fonts": "Fonts",
-      "actions": "Actions",
-      "settings": "Settings",
-      "about": "About"
+      "templates": "Sniðmát",
+      "layout": "Uppsetning",
+      "colors": "Litir",
+      "font-size": "Textastærð",
+      "fonts": "Letur",
+      "actions": "Aðgerðir",
+      "settings": "Stillingar",
+      "about": "Upplýsingar"
     },
     "profile": {
-      "photograph": "Photograph",
-      "firstName": "First Name",
-      "lastName": "Last Name",
+      "photograph": "Mynd",
+      "firstName": "Fornafn",
+      "lastName": "Eftirnafn",
       "birthDate": "Fæðingardagur",
       "address": {
-        "line1": "Address Line 1",
-        "line2": "Address Line 2",
-        "city": "City",
-        "pincode": "Zip Code"
+        "line1": "Heimilisfang, Lína 1",
+        "line2": "Heimilisfang, Lína 1",
+        "city": "Bær",
+        "pincode": "Póstnúmer"
       }
     },
     "social": {
-      "network": "Network",
-      "username": "Username",
+      "network": "Miðill",
+      "username": "Notandanafn",
       "url": "URL"
     },
     "work": {
       "company": "Fyrirtæki"
     },
     "education": {
-      "institution": "Institution",
-      "field": "Field of Study",
-      "degree": "Type of Degree",
-      "gpa": "GPA"
+      "institution": "Skóli",
+      "field": "Svið",
+      "degree": "Tegund prófs",
+      "gpa": "Meðaleinkunn"
     },
     "awards": {
-      "awarder": "Awarder"
+      "awarder": "Verðlaunagjafi"
     },
     "certifications": {
-      "issuer": "Issuer"
+      "issuer": "Útgefandi"
     },
     "skills": {
-      "level": "Level"
+      "level": "Stig"
     },
     "languages": {
-      "fluency": "Fluency"
+      "fluency": "Kunnátta"
     },
     "layout": {
-      "block": "Block",
-      "reset": "Reset Layout",
-      "text": "This template supports {{count}} blocks."
+      "block": "Blokk",
+      "reset": "Endurstilla Uppsetningu",
+      "text": "Þetta sniðmát styður {{count}} blokkir."
     },
     "colors": {
-      "primary": "Primary Color",
-      "text": "Text Color",
-      "background": "Background Color"
+      "primary": "Aðallitur",
+      "text": "Textalitur",
+      "background": "Bakgrunnslitur"
     },
     "actions": {
       "import": {
-        "heading": "Import Your Resume",
-        "text": "You can import your information from various sources like JSON Resume or your LinkedIn to autofill most of the data for your resume.",
-        "button": "Import"
+        "heading": "Færa inn ferilskrá",
+        "text": "Þú getur sótt upplýsingar frá mörgum stöðum eins og JSON Resume eða LinkedIn til að færa sjálfvirkt inn megnið af upplýsingum fyrir ferilskrána þína.",
+        "button": "Flytja inn"
       },
       "export": {
-        "heading": "Export Your Resume",
-        "text": "Export your resume as a PDF to share with recruiters or a JSON that you will be able to import back onto this app on another computer.",
-        "button": "Export"
+        "heading": "Flytja út ferilskrá",
+        "text": "Flytja út ferilskrána í PDF formi til að senda á atvinnurekendur, eða JSON sem þú getur sett aftur inn í þetta app á annari tölvu.",
+        "button": "Flytja út"
       },
       "share": {
-        "heading": "Share Your Resume",
-        "text": "The link below will be accessible publicly if you choose to share it, and viewers would see the latest version of your resume at any time."
+        "heading": "Deila ferilskrá",
+        "text": "Slóðin að neðan verður public ef þú velur að deila henni, og skoðendur munu sjá nýjustu útgáfuna af ferilskránni þinni í hvert skipti."
       },
       "loadDemoData": {
-        "text": "Unclear on what to do with a fresh blank page? Load some demo data to see how a resume should look and you can start editing from there.",
-        "button": "Load Demo Data"
+        "text": "Ekki viss hvað á að gera við tóma síðu? Settu inn demo gögn til að sjá hvernig ferilskrá ætti að líta út, og þú getur breytt þaðan.",
+        "button": "Setja inn demo gögn"
       },
       "resetEverything": {
-        "text": "Feels like you made too many mistakes? No worries, clear everything with just one click, but be careful if there are no backups.",
-        "button": "Reset Everything"
+        "text": "Finnst þér eins og allt hafi klúðrast? Engar áhyggjur, þú getur hreinsað allt með einum smelli, en vertu varkár ef það eru engin afrit til.",
+        "button": "Endurstilla allt"
       }
     },
     "settings": {
-      "theme": "Theme",
-      "language": "Language",
-      "translate": "If you would like to contribute by providing translations in your language, <1>please visit this link</1>.",
+      "theme": "Þema",
+      "language": "Tungumál",
+      "translate": "Ef þú vilt aðstoða með því að bjóða upp á þýðingar á þínu máli, <1>vinsamlegast opnið þessa slóð</1>.",
       "dangerZone": {
-        "heading": "Danger Zone",
-        "text": "If you would like to delete your account and erase all your resumes, it’s just one button away. Please be wary as this is an irreversible process.",
-        "button": "Delete Account"
+        "heading": "Hættusvæði",
+        "text": "Ef þú vilt eyða aðganginum þínum og henda öllum ferilskránum þínum, þá er það bara einn takka í burtu. Vinsamlegast athugið að það er ekki hægt að afturkalla þessa aðgerð.",
+        "button": "Eyða aðgangi"
       }
     },
     "about": {
       "donate": {
-        "heading": "Donate to Reactive Resume",
-        "text": "I try to do what I can, but if you found the app helpful, or you're in a better position than the others who depend on this project for their first job, <1>please consider donating as little as $5 to help keep the project alive</1> :)",
-        "button": "Buy me a Coffee!"
+        "heading": "Gefa pening til Reactive Resume",
+        "text": "Ég reyni að gera það sem ég get, en ef þér fannst forritið gagnlegt, eða ef þú ert í betri stöðu en aðrir sem treysta á þetta verkefni fyrir fyrsta starfið sitt, <1> vinsamlegast íhugaðu að gefa allt að $5 til að halda verkefninu lifandi </1> :)",
+        "button": "Kaupa kaffi handa mér!"
       },
       "bugFeature": {
-        "heading": "Bug? Feature Request?",
-        "text": "Something halting your progress from making a resume? Found a pesky bug that just won't quit? Talk about it on the GitHub Issues section using the actions below.",
-        "button": "Raise an Issue"
+        "heading": "Villa? Viðbótarbeiðni?",
+        "text": "Eitthvað sem stöðvar þig frá því að búa til ferilskrá? Fannstu leiðinlegan galla sem bara hættir ekki? Talaðu um það í GitHub Issues með því að nota aðgerðirnar hér að neðan.",
+        "button": "Láta vita af villu"
       },
       "appreciate": {
-        "heading": "Loved Reactive Resume?",
-        "text": "I never get tired of hearing stories of how this app helped people, and if it helped you, or you just found Reactive Resume to be an awesome tool, do let me know. You can reach out to me on my website."
+        "heading": "Elskaðir Reactive Resume?",
+        "text": "Ég þreytist aldrei á að heyra sögur af því hvernig þetta app hjálpaði fólki og ef það hjálpaði þér, eða þér fannst Reactive Resume bara æðislegt tól, láttu mig þá vita. Þú getur náð í mig á heimasíðu minni."
       },
       "sourceCode": {
-        "heading": "Source Code",
-        "text": "Want to run the project from its source? Are you a developer willing to contribute to the open-source development of this project? Click the button below.",
-        "button": "GitHub Repo"
+        "heading": "Frumkóði",
+        "text": "Viltu keyra verkefnið frá grunni þess? Ertu forritari tilbúinn að leggja þitt af mörkum við opinn uppspretta þessa verkefnis? Smelltu á hnappinn hér að neðan.",
+        "button": "GitHub geymsla"
       },
-      "footer": "Made with Love by <1>Amruth Pillai</1>"
+      "footer": "Smíðað með ást af <1>Amruth Pillai</1>"
     },
     "tooltips": {
-      "uploadPhotograph": "Upload Photograph",
-      "backToDashboard": "Go Back to Dashboard"
+      "uploadPhotograph": "Setja inn mynd",
+      "backToDashboard": "Fara aftur í valmynd"
     },
     "emptyList": "Þessi listi er tómur."
   },
   "modals": {
     "auth": {
-      "whoAreYou": "Who are you?",
-      "welcome": "Welcome, {{name}}!",
-      "loggedOutText": "Reactive Resume needs to know who you are so it can securely authenticate you into the app and show you only your information. Once you are in, you can start building your resume, editing it to add new skills or sharing it with the world!",
-      "loggedInText": "Awesome. Now that you've authenticated yourself, we can get on with the real reason you're here. Click on the Go to App button to start building your resume!",
+      "whoAreYou": "Hver ert þú?",
+      "welcome": "Velkominn {{name}}!",
+      "loggedOutText": "Reactive Resume þarf að vita hver þú ert svo það geti örugglega auðkennt þig inn í appið og sýnt bara þér upplýsingarnar þínar. Þegar þú ert komin/n inn getur þú byrjað að búa til ferilskrána þína, breyta henni til að bæta við nýjum hæfileikum, eða deila henni með umheiminum!",
+      "loggedInText": "Æðislegt. Nú þegar þú hefur auðkennt þig, getum við haldið áfram með hina raunverulegu ástæðu fyrir því að þú ert hér. Smelltu á hnappinn Fara í forrit til að byrja að byggja upp ferilskrána þína!",
       "buttons": {
-        "google": "Sign in with Google",
-        "anonymous": "Sign in Anonymously"
+        "google": "Skrá inn með Google",
+        "anonymous": "Skrá inn nafnlaust"
       }
     },
     "import": {
-      "button": "Select File",
+      "button": "Velja skrá",
       "reactiveResume": {
-        "heading": "Import from Reactive Resume",
-        "text": "Reactive Resume has its own schema format to make the most of all the customizable capabilities it has to offer. If you'd like to import a backup of your resume made with this app, just upload the file using the button below."
+        "heading": "Færa inn frá Reactive Resume",
+        "text": "Reactive Resume hefur sitt eigið skemaform til að nýta sér alla þá sérsniðnu getu sem það hefur upp á að bjóða. Ef þú vilt færa inn afrit af ferilskránni þinni sem gerð er með þessu forriti skaltu bara hlaða skránni inn með hnappnum hér að neðan."
       },
       "jsonResume": {
-        "heading": "Import from JSON Resume",
-        "text": "JSON Resume is an open standard for resume schema structure. If you are one of the many enthusiasts who have their resume ready in this format, all it takes it just one click to get started with Reactive Resume."
+        "heading": "Færa inn frá JSON Resume",
+        "text": "JSON Ferilskrá er opinn staðall fyrir uppbyggingu ferilskráa. Ef þú ert einn af mörgum áhugamönnum sem eru með ferilskrána sína tilbúna á þessu sniði þarf ekki nema einn smell til að byrja með Reactive Resume."
       },
       "linkedIn": {
-        "heading": "Import from LinkedIn",
-        "text": "You can import a JSON that was exported from LinkedIn by clicking on the button below and selecting the appropriate file."
+        "heading": "Færa inn frá LinkedIn",
+        "text": "Þú getur fært inn JSON sem var flutt út frá LinkedIn með því að smella á hnappinn hér að neðan og velja viðeigandi skrá."
       }
     },
     "export": {
       "printDialog": {
-        "heading": "Use Browser's Print Dialog",
-        "text": "For those of you who want a quick solution, you need not look any further than your browser. All you have to do is press Ctrl/Cmd + P and open up the print dialog on your browser and get your resume printed immediately.",
-        "button": "Print Resume"
+        "heading": "Nota prentglugga vafra",
+        "text": "Fyrir þá sem vilja skjóta lausn þarftu ekki að leita lengra en vafrann þinn. Allt sem þú þarft að gera er að ýta á Ctrl / Cmd + P og opna prentgluggann í vafranum þínum og fá ferilskrá þína prentaða strax.",
+        "button": "Prenta ferilskrá"
       },
       "downloadPDF": {
-        "heading": "Download PDF",
-        "text": "These options allow you to print a single page, unconstrained version of your resume, perfect for those who have a lot of content. Alternatively, you could download a multi-page version of your resume as well with just one click.",
+        "heading": "Sækja PDF",
+        "text": "Þessir valkostir gera þér kleift að prenta útgáfu af ferilskránni þinni sem staka blaðsíðu og ótakmörkuð, fullkomin fyrir þá sem hafa mikið efni. Að öðrum kosti gætirðu hlaðið niður fjölsíðuútgáfu af ferilskránni þinni líka með aðeins einum smelli.",
         "buttons": {
-          "single": "Single Page Resume",
-          "multi": "Multi Page Resume"
+          "single": "Ferilskrá sem ein síða",
+          "multi": "Ferilskrá sem margar síður"
         }
       },
       "jsonFormat": {
-        "heading": "Export to JSON Format",
-        "text": "You can also export your data into JSON format for safe keeping so that you can easily import it back into Reactive Resume whenever you want to edit or generate a resume.",
-        "button": "Export JSON"
+        "heading": "Flytja út í JSON framsetningu",
+        "text": "Þú getur einnig flutt út gögnin þín í JSON til að geyma á öruggum stað svo þú getir auðveldlega fært það aftur inn í Reactive Resume hvenær sem þú vilt til að breyta eða búa til ferilskrá.",
+        "button": "Flytja út sem JSON"
       }
     }
   }
