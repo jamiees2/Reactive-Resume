@@ -19,10 +19,10 @@
       "summary": "Ágrip/Yfirlit",
       "markdown": "Þetta textasvæði styður <1>markdown</1>.",
       "validation": {
-        "min": "Vinsamlegast sláið inn amk {{number}} stafi.",
-        "dateRange": "Lokadagsetning þarf að vera á eftir Upphafsdagsetningu",
-        "email": "Verður að vera gilt netfang",
-        "required": "Það þarf að fylla þetta út",
+        "min": "Vinsamlegast sláið inn að minnsta kosti {{number}} stafi.",
+        "dateRange": "Lokadagsetning þarf að vera á eftir Upphafsdagsetningu.",
+        "email": "Verður að vera gilt netfang.",
+        "required": "Það þarf að fylla þetta út.",
         "url": "Verður að vera gilt URL."
       }
     },
@@ -54,7 +54,7 @@
       "duplicate": "Afrita",
       "rename": "Endurnefna"
     },
-    "helpText": "Þú ert að fara að búa til nýja ferilskrá frá grunni, en fyrst skulum við nefna hana. Þetta getur verið nafnið á stöðunni sem þig langar að sækja um, eða ef þetta er ferilskrá fyrir vin, þá gætiru t. d nefnt hana Ferilskrá Jóns."
+    "helpText": "Þú ert að fara að búa til nýja ferilskrá frá grunni, en fyrst skulum við nefna hana. Þetta getur verið nafnið á stöðunni sem þig langar að sækja um, eða ef þetta er ferilskrá fyrir vin, þá gætir þú til dæmis nefnt hana Ferilskrá Jóns."
   },
   "builder": {
     "toasts": {
